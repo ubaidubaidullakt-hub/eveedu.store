@@ -1,0 +1,57 @@
+body {
+  font-family: "Noto Sans Malayalam", Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 10px;
+  background-color: #fdf6e3;
+  color: #333;
+}
+
+header h1 {
+  color: #006400;
+  font-size: 2em;
+}
+
+button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8c00;
+}
+
+input, label {
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.categories .card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  flex: 1 1 250px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.categories .card:hover {
+  transform: scale(1.05);
+  background-color: #e0ffe0;
+}
